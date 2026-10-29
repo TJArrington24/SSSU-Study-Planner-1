@@ -1,0 +1,26 @@
+# --- Python / Flask backend ---
+backend/venv/
+backend/env/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+
+# SQLite database (auto-created by init_db() on first run — never commit real/local data)
+backend/planner.db
+*.db
+*.sqlite3
+
+# Environment variables / secrets
+.env
+backend/.env
+
+# --- Editor / OS clutter ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Frontend (no build step currently, but future-proofed) ---
+frontend/node_modules/
+frontend/dist/
